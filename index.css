@@ -1,0 +1,102 @@
+body {
+    font-family: 'Neuton', serif;
+    font-family: 'Poppins';
+    background: url('images/bg1.jpg') repeat center center fixed;
+}
+
+.navbar {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 10;
+    color: #000;
+}
+
+.fix {
+	width:100%;
+    position: fixed; 
+	top: 0;
+	left: 0vw;
+    z-index: 10;
+    color: #000;
+	border-radius:5px;
+}
+
+.header .jumbotron{
+    background: url('images/JUMB.jpg') repeat center center fixed;
+    background-size:cover;
+    margin-top: 9em;
+    border-radius: 10px;
+    height: 20em;
+    width: 6em;
+    width:80%;
+    color: #fff;
+    text-align: left;
+    /* opacity: 0.6; */
+    -webkit-transform: rotate(-2deg);
+    transform: rotate(-2deg);
+    background-color: #97ebdb;
+    border-style: dashed; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.join .jumbotron{
+    margin-top: 3em;
+    border-radius: 10px;
+    height: 10em;
+    width: 10em;
+    width:50%;
+    background-color: transparent;
+    /* background-color: #00B1D2FF; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.btn-xl {
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.history .jumbotron{
+    margin-top: 3em;
+    border-radius: 10px;
+    height: 16em;
+    width: 10em;
+    width:50%;
+    background-color: transparent;
+    border: 2px dashed #fff;
+    padding: 2em;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.sponsor .jumbotron{
+    margin-top: 3em;
+    border-style: none;
+    border-radius: 10px;
+    height: 15em;
+    width: 10em;
+    width:50%;
+    color: #fff;
+    background-color: transparent;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.footer .jumbotron {
+    background-color: #97ebdb;
+    /* background-color: azure; */
+    margin-top: 1em;
+    border-style: none; 
+    border-radius: 10px;
+    width:98%;
+    height: 5em;
+    color: #005582;
+    bottom: 0;
+    left: 0.5em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (max-width: 300px) {
+    .closer{
+        margin-left: 0em;
+    }
+}

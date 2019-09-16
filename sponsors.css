@@ -1,0 +1,185 @@
+body {
+    font-family: 'Neuton', serif;
+    font-family: 'Poppins';
+    background: url('images/bg1.jpg') repeat center center fixed;
+}
+
+.navbar {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 10;
+    color: #000;
+}
+
+.fix {
+	width:100%;
+    position: fixed; 
+	top: 0;
+	left: 0vw;
+    z-index: 10;
+    color: #000;
+	border-radius:5px;
+}
+
+.feature .jumbotron{
+    margin-top: 3em;
+    /* background-image: url('images/featured.jpg'); */
+    border-radius: 10px;
+    height: 30em;
+    width:80%;
+    text-align: left;
+    background-color: #97ebdb;
+    border-style: none; 
+    background-color: transparent;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin-bottom: 0;
+}
+
+.events .jumbotron{
+    margin-top: 0em;
+    border-radius: 10px;
+    height: 60em;
+    width:70%;
+    text-align: left;
+    padding-left: 2em;
+    background-color: #97ebdb;
+    border-style: none; 
+    background-color: transparent;
+    border: 1px dashed #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Card css */
+.info .jumbotron{
+    margin-top: 7em;
+    border-radius: 10px;
+    height:100em;
+    width:80%;
+    text-align: left;
+    background-color: #97ebdb;
+    border-style: none; 
+    background-color: transparent;
+    color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+/* End of card css */
+
+/* Register form css */
+.sponsor_form{
+	background : rgb(97, 88, 87	);
+	max-width: 500px;
+	padding: 10px 20px;
+	color: white;
+	/*background: #f4f7f8;*/
+	margin: 10px auto;
+	padding: 20px;
+	/*background: #f4f7f8;*/
+	border-radius: 8px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+.sponsor_form fieldset{
+	border: none;
+
+}
+.sponsor_form legend {
+	font-size: 1.4em;
+	margin-bottom: 10px;
+}
+.sponsor_form label {
+	display: block;
+	margin-bottom: 8px;
+}
+.sponsor_form input[type="text"],
+.sponsor_form input[type="date"],
+.sponsor_form input[type="datetime"],
+.sponsor_form input[type="email"],
+.sponsor_form input[type="number"],
+.sponsor_form input[type="search"],
+.sponsor_form input[type="time"],
+.sponsor_form input[type="url"],
+.sponsor_form textarea,
+.sponsor_form select {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	background: rgba(255,255,255,.1);
+	border: none;
+	border-radius: 4px;
+	font-size: 15px;
+	margin: 0;
+	outline: 0;
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box; 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box; 
+	background-color: #e8eeef;
+	color:#8a97a0;
+	-webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+	margin-bottom: 30px;
+}
+.sponsor_form input[type="text"]:focus,
+.sponsor_form input[type="date"]:focus,
+.sponsor_form input[type="datetime"]:focus,
+.sponsor_form input[type="email"]:focus,
+.sponsor_form input[type="number"]:focus,
+.sponsor_form input[type="search"]:focus,
+.sponsor_form input[type="time"]:focus,
+.sponsor_form input[type="url"]:focus,
+.sponsor_form textarea:focus,
+.sponsor_form select:focus{
+	/*background: #d2d9dd;*/
+}
+.sponsor_form select{
+	-webkit-appearance: menulist-button;
+	height:35px;
+}
+.sponsor_form .number {
+	background: #1abc9c;
+	color: #fff;
+	height: 30px;
+	width: 30px;
+	display: inline-block;
+	font-size: 0.8em;
+	margin-right: 4px;
+	line-height: 30px;
+	text-align: center;
+	text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+	border-radius: 15px 15px 15px 0px;
+}
+
+.sponsor_form input[type="submit"],
+.sponsor_form input[type="button"]
+{
+	position: relative;
+	display: block;
+	padding: 19px 39px 18px 39px;
+	color: #FFF;
+	margin: 0 auto;
+	background:#16a085;
+	font-size: 18px;
+	text-align: center;
+	font-style: normal;
+	width: 100%;
+	border: 1px solid #16a085;
+	border-width: 1px 1px 3px;
+	margin-bottom: 10px;
+}
+.sponsor_form input[type="submit"]:hover,
+.sponsor_form input[type="button"]:hover
+{
+	background: #109177;
+}
+/* End of register form css */
+
+.footer .jumbotron {
+    background-color: #97ebdb;
+    margin-top: 1em;
+    border-style: none; 
+    border-radius: 10px;
+    width:98%;
+    height: 5em;
+    color: #005582;
+    bottom: 0;
+    left: 0.5em;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
